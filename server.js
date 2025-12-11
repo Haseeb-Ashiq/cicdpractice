@@ -8,4 +8,4 @@ app.use(express.static('build'));
 app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
-app.listen(3001,()=>console.log('server started...at 3001'));
+app.listen(3001,()=>console.log('server started...at 3001 '));
